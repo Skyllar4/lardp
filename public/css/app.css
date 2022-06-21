@@ -1,0 +1,155 @@
+.bg-secondary {
+    background-color: "2c3e50 !important";
+}
+
+.copyright {
+    background-color: #404245;
+}
+
+.bg-primary {
+    background-color: #1abc9c !important;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.img-card {
+    height: 18vw;
+    object-fit: cover;
+}
+
+.img-list {
+    height: 10%;
+    width: 10%;
+    object-fit: cover;
+}
+
+/* StripeElement {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+} */
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.brand-image {
+    height: 60px;
+}
+
+.header-link {
+    color: #404245;
+}
+
+
+.menu-container {
+    display: flex;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+.last-menu-element {
+    padding-right: 220px;
+}
+
+.title-container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.page-title {
+    font-size: 50px;
+}
+
+.slide-image {
+    max-width: 100%;
+    height: 500px;
+}
+
+.card-btn {
+    color: black;
+    border-color: black;
+  }
+
+  .card-btn:hover {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+  }
+
+  .card-btn.disabled, .card-btn:disabled {
+    color: black;
+    background-color: transparent;
+  }
+
+  .card-btn:not(:disabled):not(.disabled):active, .card-btn:not(:disabled):not(.disabled).active,
+  .show > .card-btn.dropdown-toggle {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+  }
+
+.auth-form-btn {
+    background-color: black;
+}
+
+
+.categories-list {
+    display: flex;
+   margin-left: 400px;
+   margin-bottom: 40px;
+}
+
+.categories-list-item {
+    margin-right: 15px;
+    color: black;
+}
+
+.card-item-list {
+    margin-top: 15px;
+}
+
+.categories-list-item-link {
+    color: black;
+}
+
+.map-image {
+    width: 900px;
+    margin-left: 188px;
+}
+
+.info-container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.info-content {
+    font-size: 31px;
+    text-align: center;
+}
